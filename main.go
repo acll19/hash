@@ -30,5 +30,5 @@ func main() {
 }
 
 func init() {
-	flag.IntVar(&length, "l", 10, "Length of the hash")
+	flag.IntVar(&length, "l", 8, "Length of the hash")
 }
